@@ -1,1 +1,2 @@
-
+## Description
+This is an API that provides information on the courses offered at the University of Manitoba. Users can use it to find relevant course information including prerequisites, course name or terms they are generally offered in. Users can also find lists of courses based on a professor or year level.
