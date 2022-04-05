@@ -15,10 +15,10 @@ This is an API that provides information on the courses offered at the Universit
 2. You can get a list of courses based on what year level they are (e.g. 2000 level courses):
 {"results":["COMP2140","COMP2160","COMP2150",etc...],"status":"success"}
 
-3. You can get a list of courses taught by the specified professor (e.g "John Anderson")
+3. You can get a list of courses taught by the specified professor (e.g "John Anderson"):
 {"results":["COMP3190"],"status":"success"}
 
-4. You can get a list of terms the course number you entered is offered (e.g. "COMP2140")
+4. You can get a list of terms the course number you entered is offered (e.g. "COMP2140"):
 {"results":["Fall 2021","Winter 2022"],"status":"success"}
 
 ## Samples Requests
