@@ -9,8 +9,7 @@ This is an API that provides information on the courses offered at the Universit
 4. /terms/{course_number}/list
 
 ## Resources
-1. You can get a list of courses that are prerequisites for the course number you enter (e.g. COMP2140):
-
+1. You can get a list of courses that are prerequisites for the course number you enter (e.g. COMP2140):  
 {"results":["COMP1020"],"status":"success"}
 
 2. You can get a list of courses based on what year level they are (e.g. 2000 level courses):
