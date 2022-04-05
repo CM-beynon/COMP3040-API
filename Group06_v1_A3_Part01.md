@@ -23,17 +23,17 @@ This is an API that provides information on the courses offered at the Universit
 
 ## Samples Requests
 1. Get a list of courses that are prerequisites for COMP2140:  
-Request: /courses/COMP2140/prereqs  
-Response: {"results":["COMP1020"],"status":"success"}
+**Request:** /courses/COMP2140/prereqs  
+**Response:** {"results":["COMP1020"],"status":"success"}
 
 2. Get a list of courses at the 2000 level:  
-Request: /courses/2000/list  
-Response: {"results":["COMP2140","COMP2160","COMP2150",etc...],"status":"success"}
+**Request:** /courses/2000/list  
+**Response:** {"results":["COMP2140","COMP2160","COMP2150",etc...],"status":"success"}
 
 3. Get a list of courses taught by John Anderson:  
-Request: /courses/John_Anderson/list  
-Response: {"results":["COMP3190"],"status":"success"}
+**Request:** /courses/John_Anderson/list  
+**Response:** {"results":["COMP3190"],"status":"success"}
 
 4. Get the list of terms in which course COMP 2140 is taught:  
-Request:/terms/COMP2140/list  
-Response:{"results":["Fall 2021","Winter 2022"],"status":"success"}
+**Request:** /terms/COMP2140/list  
+**Response:** {"results":["Fall 2021","Winter 2022"],"status":"success"}
